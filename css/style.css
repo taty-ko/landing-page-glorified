@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+body {
+	font-family: var(--thm-font);
+	font-weight: 400;
+	font-style: normal;
+	color:  var(--thm-p);
+}
+:root {
+	--thm-font: 'Poppins', sans-serif;
+	--thm-base: #df247b;
+	--thm-color: #12b07f;
+	--thm-black: #222222;
+	--thm-white: #ffffff;
+	--thm-eee: #eeeeee;
+	--thm-ddd: #dddddd;
+	--thm-f6: #F1F8FF;
+	--thm-fb: #f6f6f6;
+	--thm-p: #636363;
+	 --color_1: linear-gradient(#00A4E6,#00A4E6,#00A4E6,#016CB0);
+	 --color_2: linear-gradient(to right, #12b07f 80%,#282e3e 20%);
+	 --color_3: linear-gradient(to right, #12b07f 80%,#ffffff 20%);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--thm-font);
+	color: var(--thm-white);
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: inherit;
+}
+h2 {
+	font-size: 40px;
+	line-height: 50px;
+	margin-bottom: 0px;
+	font-weight: 700;
+}
+h3 {
+	font-size: 22px;
+	line-height: 32px;
+	margin-bottom: 0px;
+	font-weight: 700;
+}
+h4 {
+  font-size: 20px;
+  line-height: 27px; }
+
+h5 {
+  font-size: 18px;
+  line-height: 26px; }
+
+h6 {
+  font-size: 14px;
+  line-height: 22px; }
+  
+p:last-child {
+	margin-bottom: 0;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+p {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	color: var(--thm-white);
+	line-height: 28px;
+	font-family: var(--thm-font);
+	font-weight: 400;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+a {
+	text-decoration: none;
+	transition: all 0.2s ease 0s;
+}
+a:focus, .btn:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:active {
+	color: var(--thm-color);
+	text-decoration: none;
+	outline: 0;
+}
+*, ::before, ::after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+span {
+	letter-spacing: 0;
+}
+a, button, input {
+	outline: medium none;
+	color: inherit;
+}
+dl, ol, ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+button:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border-color: transparent !important;
+}
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+::-webkit-input-placeholder {
+	color: inherit;
+}
+::-moz-input-placeholder {
+	color: inherit;
+}
+::-ms-input-placeholder {
+	color: inherit;
+}
+
+
+button, input, textarea {
+    color: var(--thm-black);
+}
+button, input, textarea:focus {
+    outline:none;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
