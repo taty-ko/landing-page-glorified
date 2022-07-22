@@ -92,6 +92,15 @@ section {
 .main-top {
     background-image: url(../images/img-bg-1.jpg); 
 }
+.main-top.slide-1 {
+    background-image: url(../images/img-bg-1.jpg); 
+}
+.main-top.slide-2 {
+    background-image: url(../images/img-bg-2.jpg); 
+}
+.main-top.slide-3 {
+    background-image: url(../images/img-bg-3.jpg); 
+}
 
 .text-top, .text-middle, .text-description {
     font-size: 25px;
@@ -290,6 +299,8 @@ section {
 }
 .points-container-wrap:last-child {
     margin-bottom: 0;
+    overflow-x: scroll;
+    max-width: 1200px;
 }
 
 .points-container {
